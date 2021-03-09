@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Zarema_Questionnaire</string>
+    <string name="back">Назад</string>
+    <string name="exit">Выход</string>
+    <string name="info">Данные</string>
+    <string name="fio">Введите ФИО</string>
+    <string name="gender">Пол</string>
+    <string name="female">Женский</string>
+    <string name="male">Мужской</string>
+    <string name="education">Образование</string>
+    <string name="total">Итого</string>
+    <string name="primary">Начальное</string>
+    <string name="secondary">Среднее</string>
+    <string name="higher">Высшее</string>
+    <string name="country">Страна</string>
+    <string name="family_status">Семейное положение</string>
+    <string name="married">Замужем/Женат</string>
+    <string name="in_relationships"> В отношениях</string>
+    <string name="single">Не замужем/Холост</string>
+
+</resources>

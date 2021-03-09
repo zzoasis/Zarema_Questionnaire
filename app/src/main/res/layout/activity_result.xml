@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/info"
+        android:textColor="@color/purple_700"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewResultData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="center"
+        android:textColor="@color/purple_700"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonBack"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onBack"
+            android:text="@string/back"
+            android:textColor="@color/teal_200"
+            android:textSize="20sp"
+            app:backgroundTint="#3949AB"
+            app:iconTint="@color/purple_700" />
+
+        <Button
+            android:id="@+id/buttonExit"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onExit"
+            android:text="@string/exit"
+            android:textColor="@color/teal_200"
+            android:textSize="20sp"
+            app:backgroundTint="#3949AB"
+            app:iconTint="@color/purple_700" />
+
+    </LinearLayout>
+
+</LinearLayout>
